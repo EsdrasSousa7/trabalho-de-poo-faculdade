@@ -3,7 +3,7 @@
 <h2>⚡1º : Considerando os conceitos básicos de Orientação a Objetos, explique o significado dos conceitos abaixo:</h2>
 
 <h3> 1. Encapsulamento:</h3>
-> É A forma de dividir as tarefas no codigo de uma forma organizada para que seja evitado repetição de codigos.
+> <p> É A forma de dividir as tarefas no codigo de uma forma organizada para que seja evitado repetição de codigos. </p>
 > Exemplo:
 
 ##### Em um programa que adiciona nomes em uma lista sem uso de encapsulamento, toda vez q quiser digitar o nome e armazenar
