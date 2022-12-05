@@ -55,7 +55,8 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 
 <p>Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" para cada tarefa separadamente</p>
 
-
+</br>
+</br>
 - <h3>2. Herança:  💫</h3>
 > <p>É a forma de classes compartilharem atributos e metodos entre si de uma forma hierarquica:</p>
 > <p>Classe que vai compartilhar : base </p>
