@@ -33,7 +33,7 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 		lerNome.close();
 	}
 }
-<p>Podemos ver acima, q as mesmas linhas de codigos estão se repetindo várias vezes, agora veja como seria com metodos ( encapsulament ) <p>
+> <p>Podemos ver acima, q as mesmas linhas de codigos estão se repetindo várias vezes, agora veja como seria com metodos ( encapsulament ) <p>
 	
 	public static void main(String[] args) {
 		while( ListaDeNomes.size() < = 10 )
@@ -50,7 +50,9 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 > <p>Com o encapsulamento, evita-se linhas de codigos repetidos com a seguinte logica:</p>
      
 > <p>Para adicionar um nome em uma lista temos 2 tarefas principais:</p>
+	
 > <p> -> 1- saber qual o livro que deve ser armazenado.</p>
+	
 > <p> -> 2- armazenar o livro em questão.</p>
 
 > <p>Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" para cada tarefa separadamente</p>
@@ -60,7 +62,9 @@ ________________________________________________________________________________
 
 - <h3>2. Herança:  💫</h3>
 > <p>É a forma de classes compartilharem atributos e metodos entre si de uma forma hierarquica:</p>
+
 > <p>Classe que vai compartilhar : base </p>
+
 > <p>Classe que vai receber : derivada </p>
   
       public class Base {    //classe Base
