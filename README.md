@@ -7,8 +7,8 @@
 
 <p>Em um programa que adiciona nomes em uma lista sem uso de encapsulamento, toda vez q quiser digitar o nome e armazenar
 terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o mesmo codigo será reescrito 100 vezes. </p>
-     public class Exemplo {
-	
+
+     public class Exemplo {	
 	public static void main(String[] args){
 		Scanner lerNome = new Scanner(System.in);
 		ArrayList<String> ListaDeNomes = new ArrayList<String>();
@@ -33,9 +33,30 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 		lerNome.close();
 	}
 }
+<p>Podemos ver acima, q as mesmas linhas de codigos estão se repetindo várias vezes, agora veja como seria com metodos ( encapsulament ) <p>
+	
+	public static void main(String[] args) {
+		while( ListaDeNomes.size() <= 10 )
+		adicionaConta();
+	}
+	//metodo pra adicionar nome na lista
+	public static void adicionaConta() {
+		System.out.println("Qual nome quer adicionar na Lista?");
+		String nome2 = lerNome.next();
+		ListaDeNomes.add(nome2);
+	}
      
      
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
  Com o encapsulamento, evita-se linhas de codigos repetidos com a seguinte logica:
      
      Para adicionar um nome em uma lista temos 2 tarefas principais:
