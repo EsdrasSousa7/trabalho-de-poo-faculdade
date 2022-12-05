@@ -14,9 +14,9 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 		ArrayList<String> ListaDeNomes = new ArrayList<String>();
 		
 		System.out.println
-		("Qual nome quer adicionar na Lista?"); //mostra na tela uma pergunta
-		String nome1 = lerNome.next();          //armazena a resposta em uma variavel                   
-		ListaDeNomes.add(nome1);                //adiciona na lista
+		("Qual nome quer adicionar na Lista?");     //mostra na tela uma pergunta
+		String nome1 = lerNome.next();              //armazena a resposta em uma variavel                   
+		ListaDeNomes.add(nome1);                    //adiciona na lista
 		
 		System.out.println("Qual nome quer adicionar na Lista?");
 		String nome2 = lerNome.next();
@@ -36,11 +36,12 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 <p>Podemos ver acima, q as mesmas linhas de codigos estão se repetindo várias vezes, agora veja como seria com metodos ( encapsulament ) <p>
 	
 	public static void main(String[] args) {
-		while( ListaDeNomes.size() <= 10 )
-		adicionaConta();
+		while( ListaDeNomes.size() < = 10 )
+		adicionaConta();                                          //chamando metodo adicionarConta
 	}
-	//metodo pra adicionar nome na lista
-	public static void adicionaConta() {
+	
+					       
+	public static void adicionaConta() {                              //metodo pra adicionar nome na lista
 		System.out.println("Qual nome quer adicionar na Lista?");
 		String nome2 = lerNome.next();
 		ListaDeNomes.add(nome2);
@@ -48,20 +49,11 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 					       
 <p>Com o encapsulamento, evita-se linhas de codigos repetidos com a seguinte logica:</p>
      
-   <p>Para adicionar um nome em uma lista temos 2 tarefas principais:</p>
-       <p>-> 1- saber qual o livro que deve ser armazenado.</p>
-       <p>-> 2- armazenar o livro em questão.</p>
+<p>Para adicionar um nome em uma lista temos 2 tarefas principais:</p>
+> <p>-> 1- saber qual o livro que deve ser armazenado.</p>
+> <p>-> 2- armazenar o livro em questão.</p>
 
-     Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" que cada tarefa separadamente no codigo:
-      
-     metodo 1: ver qual o livro
-     
-     metodo 2: armazenar o livro
-
-  
- Assim, em vez de ter longas linhas de codigos repetidos, pode simplesmente chamar o respectivo metodo que faz a função que está sendo necessaria
-    
-    
+<p>Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" para cada tarefa separadamente</p>
     2. Herança
     
     
