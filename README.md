@@ -40,6 +40,7 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 		adicionaConta();                                          //chamando metodo adicionarConta
 	}
 	
+________________________________________________________________________________________________________________
 					       
 	public static void adicionaConta() {                              //metodo pra adicionar nome na lista
 		System.out.println("Qual nome quer adicionar na Lista?");
