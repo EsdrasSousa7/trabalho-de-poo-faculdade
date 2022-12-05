@@ -50,8 +50,8 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 <p>Com o encapsulamento, evita-se linhas de codigos repetidos com a seguinte logica:</p>
      
 <p>Para adicionar um nome em uma lista temos 2 tarefas principais:</p>
-> <p>-> 1- saber qual o livro que deve ser armazenado.</p>
-> <p>-> 2- armazenar o livro em questão.</p>
+<p> -> 1- saber qual o livro que deve ser armazenado.</p>
+<p> -> 2- armazenar o livro em questão.</p>
 
 <p>Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" para cada tarefa separadamente</p>
     2. Herança
