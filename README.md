@@ -2,8 +2,8 @@
 
 <h2>⚡1º : Considerando os conceitos básicos de Orientação a Objetos, explique o significado dos conceitos abaixo:</h2>
 
-- <h3> 1. Encapsulamento:</h3>
-> <p> É A forma de dividir tarefas no codigo de uma forma organizada para evitar repetição de codigos.</p>
+- <h3> 1. Encapsulamento:  💥</h3>
+> <p> É a forma de dividir tarefas no codigo de uma forma organizada para evitar repetição de codigos.</p>
 
 <p>   Em um programa que adiciona nomes em uma lista sem uso de encapsulamento, toda vez q quiser digitar o nome e armazenar
 terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o mesmo codigo será reescrito 100 vezes. </p>
@@ -54,10 +54,33 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 <p> -> 2- armazenar o livro em questão.</p>
 
 <p>Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" para cada tarefa separadamente</p>
-    2. Herança
+
+
+- <h3>2. Herança:  💫</h3>
+> <p>É a forma de classes compartilharem atributos e metodos entre si de uma forma hierarquica:</p>
+> <p>Classe que vai compartilhar : base </p>
+> <p>Classe que vai receber : derivada </p>
+  
+      public class Base {    //classe Base
+	
+	int numero  = 1;                                 //2 variaveis na classe Base
+	String nome = "arroz";   
+	
+     }
+     
+     
+     public class Derivada extends Base{                //classe Derivada herda Base
+	public void derivada() {
+		
+		System.out.println(numero + nome);      //pode fazer o uso das variaveis declaradas em Base
+		
+	}
+    }
+- <h3>3. Polimorfismo  🐸</h3>
+     
     
     
-    3. Polimorfismo
+    
     
     4. Atributos e Métodos
     
