@@ -5,7 +5,7 @@
 - <h3> 1. Encapsulamento:  💥</h3>
 > <p> É a forma de dividir tarefas no codigo de uma forma organizada para evitar repetição de codigos.</p>
 
-<p>   Em um programa que adiciona nomes em uma lista sem uso de encapsulamento, toda vez q quiser digitar o nome e armazenar
+> <p>   Em um programa que adiciona nomes em uma lista sem uso de encapsulamento, toda vez q quiser digitar o nome e armazenar
 terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o mesmo codigo será reescrito 100 vezes. </p>
 
      public class Exemplo {	
@@ -47,13 +47,13 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 		ListaDeNomes.add(nome2);
 	}
 					       
-<p>Com o encapsulamento, evita-se linhas de codigos repetidos com a seguinte logica:</p>
+> <p>Com o encapsulamento, evita-se linhas de codigos repetidos com a seguinte logica:</p>
      
-<p>Para adicionar um nome em uma lista temos 2 tarefas principais:</p>
-<p> -> 1- saber qual o livro que deve ser armazenado.</p>
-<p> -> 2- armazenar o livro em questão.</p>
+> <p>Para adicionar um nome em uma lista temos 2 tarefas principais:</p>
+> <p> -> 1- saber qual o livro que deve ser armazenado.</p>
+> <p> -> 2- armazenar o livro em questão.</p>
 
-<p>Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" para cada tarefa separadamente</p>
+> <p>Todas as vezes que tiver que fazer algo repetitivo,podemos criar "metodos" para cada tarefa separadamente</p>
 </br>
 ________________________________________________________________________________________________________________
 </br>
