@@ -32,7 +32,7 @@ terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o me
 		
 		lerNome.close();
 	}
-}
+    }
 > <p>Podemos ver acima,que está se repetindo os mesmos codigos várias,agora veja como seria com metodos(encapsulamento) <p>
 	
 	public static void main(String[] args) {
@@ -74,6 +74,7 @@ ________________________________________________________________________________
 	
      }
      
+> -----------------------------------------------------------------------------------------------------
      
      public class Derivada extends Base{                //classe Derivada herda Base
 	public void derivada() {
