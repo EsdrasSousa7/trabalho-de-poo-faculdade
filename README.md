@@ -52,10 +52,10 @@
       ❓exemplo:
       
            💠Fazer um trabalho de faculdade tem varias formas de fazer essa ação:
-	   💠Estudando pra saber resolver.
-	   💠Pedindo ajuda.
-	   💠Copiando de outra pessoa.
-	   💠Fazer de forma errada
+           💠Estudando pra saber resolver.
+           💠Pedindo ajuda.
+           💠Copiando de outra pessoa.
+           💠Fazer de forma errada
 	 
       🟢Temos o mesmo nome pra um comportamento ( Fazer um trabalho de faculdade ) e varías formas de fazer.
       ⠀⠀
