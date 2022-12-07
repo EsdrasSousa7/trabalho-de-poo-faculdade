@@ -4,21 +4,13 @@
 
 - <h3> 1. Encapsulamento:  💥</h3>
       
-      Tem o princípo de dividir tarefas em um codigo de maneira organizada de forma que evite repetição de codigos.
-      Exemplo :
-      Temos um programa que adiciona nomes em uma lista.
+      Tem o princípo de dividir tarefas em um codigo de maneira organizada.
+      Evita de ter muitos codigo repetidos.
+      Por ter tarefas divididas, a manutenção do codigo é mais eficiente.
       
-      Nesse programa temos o seguinte algoritmo:
-      ->Saber qual nome tem que adicionar;
-      ->Adicionar o nome;
-      
-      Sem uso da pratica de encapsulamento:
-      -> Todas as vezes q for preciso fazer o uso desse algoritmo será necessário repetir o mesmo codigo.
-      -> Se for necessario adicionar 100 nomes, o mesmo codigo será reescrito 100 vezes.
-      
-      Com uso da pratica de encapsulamento;
-      -> O algoritmo em questão se tornará um "método".
-      -> Com isso sempre que for necessário o uso desse algoritmo em vez de repetir codigo, será preciso apenas "chamar o método".  
+      Pratica de encapsulamento;
+      ->O encapsulamento consiste em separar as tarefas em "metodos".
+      ->Com isso sempre que for realizar uma tarefa, será necessário apenas chamar o metodo.
 </br>
 ________________________________________________________________________________________________________________
 </br>
