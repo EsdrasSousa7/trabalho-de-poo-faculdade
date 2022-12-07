@@ -7,12 +7,15 @@
       Tem o princípo de dividir tarefas em um codigo de maneira organizada de forma que evite repetição de codigos.
       Exemplo :
       Temos um programa que adiciona nomes em uma lista.
+      
       Nesse programa temos o seguinte algoritmo:
       ->Saber qual nome tem que adicionar;
       ->Adicionar o nome;
+      
       Sem uso da pratica de encapsulamento:
       -> Todas as vezes q for preciso fazer o uso desse algoritmo será necessário repetir o mesmo codigo.
       -> Se for necessario adicionar 100 nomes, o mesmo codigo será reescrito 100 vezes.
+      
       Com uso da pratica de encapsulamento;
       -> O algoritmo em questão se tornará um "método".
       -> Com isso sempre que for necessário o uso desse algoritmo em vez de repetir codigo, será preciso apenas "chamar o método".  
