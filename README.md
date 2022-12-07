@@ -4,7 +4,8 @@
 
 - <h3> 1. Encapsulamento:  💥</h3>
 
-````Tem o princípo de dividir tarefas em um codigo de maneira organizada de forma que evite repetição de codigos.
+`
+Tem o princípo de dividir tarefas em um codigo de maneira organizada de forma que evite repetição de codigos.
       
       Exemplo :
       Temos um programa que adiciona nomes em uma lista.
