@@ -4,12 +4,14 @@
 
 - <h3> 1. Encapsulamento:  💥</h3>
       
-      Tem o princípo de dividir tarefas em um codigo de maneira organizada.
-      Evita de ter muitos codigo repetidos.
-      Por ter tarefas divididas, a manutenção do codigo é mais eficiente.
+      -Tem o princípo de dividir tarefas em um codigo de maneira organizada.
       
-      Pratica de encapsulamento;
+      -Evita de ter muitos codigo repetidos.
+      
+      -Por ter tarefas divididas, a manutenção do codigo é mais eficiente.
+      
       ->O encapsulamento consiste em separar as tarefas em "metodos".
+      
       ->Com isso sempre que for realizar uma tarefa, será necessário apenas chamar o metodo.
 </br>
 ________________________________________________________________________________________________________________
