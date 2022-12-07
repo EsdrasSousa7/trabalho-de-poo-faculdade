@@ -22,7 +22,7 @@
 
 <h3>2. Herança:  💫</h3>
 
-      <\br>
+      ⠀⠀
       ➡️A herança permite que Classes compartilhem características e ações com outras.
 
        💠Classe que vai compartilhar: Se chama base;
@@ -34,7 +34,7 @@
 	     💠ações: andar e falar;
 	     
       ➡️A Classe que recebe herança de Pessoa também vai ter nome e sobrenome,andar e falar.
-      <\br>
+      ⠀⠀
 
 </br>
 <h1></h1>
@@ -42,6 +42,7 @@
 
 <h3>3. Polimorfismo  🐸</h3>
      
+      ⠀⠀
       🟢Poli = muitas;  
       🟢morfo = formas
       
@@ -55,6 +56,7 @@
 	   💠Fazer de forma errada
 	 
       🟢Temos o mesmo nome pra um comportamento ( Fazer um trabalho de faculdade ) e varías formas de fazer.
+      ⠀⠀
 
 </br>
 <h1></h1>
@@ -62,6 +64,7 @@
 
 <h3>4. Atributos e Métodos 🍀</h3>
 
+      ⠀⠀
       🟢Atributos são características de objetos como por exemplo:
          💠Carro -> tem roda,volante,banco.
          💠Porta -> tem cor,material,espessura.
@@ -73,6 +76,7 @@
          💠Porta -> abrir,fechar.
     
                ❓acelerar,frear,ligar,desligar,abrir e fechar são métodos
+	       ⠀⠀
 
 </br>
 <h1></h1>
@@ -80,7 +84,10 @@
 		      
 <h3>5. Atributos e Métodos Estáticos 🍁</h3>
 
+ 
+      ⠀⠀
       ➡️Atributos e Métodos Estáticos são ações e características de uso exclusivo da Classe.
+      ⠀⠀
 
 </br>
 <h1></h1>
@@ -91,6 +98,8 @@
 
 <h4 align="center">⭕Sobrescrita⭕</h4>
 
+
+       ⠀⠀
       ➡️Sobrescrita é quando se tem métodos com a mesma assinatura em classes diferentes.
       ➡️Quando não se quer herdar o método do jeito da outra classe, se "sobrescreve" o mesmo.
       
@@ -142,6 +151,7 @@
       🟢Então se tentar imprimir mensagem() em ambas:
         🔺Classe1 mostrará "mensagem"
 	🔺Classe2 mostrará "outra mensagem"
+	⠀⠀
 
 </br>
 <h1></h1>
@@ -150,6 +160,7 @@
 <h4 align="center">❌Sobrecarga❌</h4>
 
 
+     ⠀⠀
      ➡️Sobrecarga é quando se tem métodos com assinaturas diferentes em classes iguais.
      
        🟢Mesma assinatura: quando tem a mesma quantidade de parametros e sãp do mesmo tipo.
@@ -219,7 +230,7 @@
       ➡️Quando se chama um construtor ele verifica os metodos disponível em sequência.
       
       ➡️Quando um método não é compativel ele fica "sobrecarregado",então verifica o próximo.
-      
+      ⠀⠀
       
       
 </br>
