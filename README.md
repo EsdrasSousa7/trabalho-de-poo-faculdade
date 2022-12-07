@@ -30,9 +30,9 @@
       
       ❓exemplo:
       
-             💠 Uma Classe com nome Pessoa que possui:
-	     💠características: nome e sobrenome;
-	     💠ações: andar e falar;
+          💠Uma Classe com nome Pessoa que possui:
+          💠características: nome e sobrenome;
+          💠ações: andar e falar;
 	     
       ➡️A Classe que recebe herança de Pessoa também vai ter nome e sobrenome,andar e falar.
       ⠀⠀
