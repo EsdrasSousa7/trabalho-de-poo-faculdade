@@ -241,6 +241,91 @@
 <img src="https://github.com/isonhar/trabalho-de-poo-faculdade/blob/main/extra/img%203%20questao.png">
 </p>
       
+ ➡️Pessoa:
+	 
+	🔸public class Pessoa {
+	🔸   protected String nome;
+	🔸   public Pessoa(String nome) {
+	🔸      this.nome = nome;
+	🔸   }
+	🔸   public void setNome(String nome) {
+	🔸	this.nome = nome;
+	🔸   }
+	🔸   public String getNome() {
+	🔸	return nome;
+	🔸   }
+	🔸   public String toString() {
+	🔸	return "\n" + nome;
+	🔸   }
+}
+	
+➡️Pessoa Física:
+
+        🔸public class PessoaFisica extends Pessoa {
+	🔸   protected String cpf,sobrenome;
+	🔸   protected String tipo = "Pessoa tipo Fisica";
+	🔸   public PessoaFisica(String nome, String sobrenome, String cpf) {
+	🔸      super(nome);
+	🔸	this.cpf = cpf;
+	🔸	this.sobrenome = sobrenome;
+	🔸   }
+	🔸   public String getSobrenome() {
+	🔸	return sobrenome;
+	🔸   }
+	🔸   public void setSobrenome(String sobrenome) {
+	🔸	this.sobrenome = sobrenome;
+	🔸   }
+	🔸   public String getCpf() {
+	🔸	return cpf;
+	🔸   }
+	🔸   public void setCpf(String cpf) {
+	🔸	this.cpf = cpf;
+	🔸   }
+	🔸   public String toString() {
+	🔸	return  "\n"
+	🔸             + tipo 
+	🔸             +"\nNome: " + this.getNome()
+	🔸             +"\nSobrenome: " + this.getSobrenome()
+	🔸             +"\nCpf: " + this.getCpf();
+	🔸   }
+        🔸}
+
+➡️Pessoa Jurídica:
+
+        🔸public class PessoaJuridica extends Pessoa {
+	🔸   private String cnpj,razaoSocial;
+	🔸   private String tipo = "Pessoa tipo juridica";
+	🔸   public PessoaJuridica(String nome, String cnpj, String razaoSocial) {
+	🔸      super(nome);
+	🔸	this.cnpj = cnpj;
+	🔸	this.razaoSocial = razaoSocial;
+	🔸   }
+	🔸   public String getRazaoSocial() {
+	🔸	return razaoSocial;
+	🔸   }
+	🔸   public void setRazaoSocial(String razaoSocial) {
+	🔸	this.razaoSocial = razaoSocial;
+	🔸   }
+	🔸   public String getCnpj() {
+	🔸	return cnpj;
+	🔸   }
+	🔸   public void setCnpj(String cnpj) {
+	🔸	this.cnpj = cnpj;
+	🔸   }
+	🔸   public String toString() {
+	🔸	return  "\n"
+	🔸	       + tipo 
+	🔸	       +"\nNome: " + this.getNome()
+	🔸	       +"\nSobrenome: " + this.getCnpj()
+	🔸	       +"\nCpf: " + this.getRazaoSocial();
+	🔸   }
+        🔸}
+       
+</br>
+<h1></h1>
+</br>
+
+<h2>💲4º-Modifique a o projeto banco (abordado em sala de aula) para que o cliente usado seja um tipo PessoaFisica ou PessoaJuridica.</h2>
 
 </br>
 <h1 align="center">〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
