@@ -137,12 +137,12 @@
 	💠Classe2 derivada de Classe1:
       
         🔸public class Classe2 extends Classe1{
-	🔸
-	🔸   @Override
-	🔸   public void mensagem() {
-	🔸	System.out.println("outra mensagem");
-	🔸   }
-	🔸}
+        🔸
+        🔸   @Override
+        🔸   public void mensagem() {
+        🔸	System.out.println("outra mensagem");
+        🔸   }
+        🔸}
       
 
       💠Agora dessa forma o método mensagem() em Classe2 está sendo sobreescrito no de Classe1
