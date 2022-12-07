@@ -109,16 +109,16 @@
       
         💠Classe1 com uma método "mensagem" que mostra uma string:
       
-          🔸public class Classe1 {
-          🔸   public void mensagem() {
-          🔸       System.out.println("mensagem");
-          🔸  }
-          🔸}
+            🔸public class Classe1 {
+            🔸   public void mensagem() {
+            🔸       System.out.println("mensagem");
+            🔸  }
+            🔸}
       
         💠Classe2 derivada de Classe1:
       
-          🔸 public class Classe2 extends Classe1{
-          🔸 }
+            🔸 public class Classe2 extends Classe1{
+            🔸 }
       
       💠Como a Classe2 herda de classe1, ela tambem possui o método mensagem().
       
@@ -128,21 +128,21 @@
       
         💠Classe1 com uma método "mensagem" que mostra uma string:
       
-          🔸public class Classe1 {
-          🔸   public void mensagem() {
-          🔸       System.out.println("mensagem");
-          🔸  }
-          🔸}
+            🔸public class Classe1 {
+            🔸   public void mensagem() {
+            🔸       System.out.println("mensagem");
+            🔸  }
+            🔸}
 	
 	💠Classe2 derivada de Classe1:
       
-        🔸public class Classe2 extends Classe1{
-        🔸
-        🔸   @Override
-        🔸   public void mensagem() {
-        🔸	System.out.println("outra mensagem");
-        🔸   }
-        🔸}
+            🔸public class Classe2 extends Classe1{
+            🔸
+            🔸   @Override
+            🔸   public void mensagem() {
+            🔸	System.out.println("outra mensagem");
+            🔸   }
+            🔸}
       
 
       💠Agora dessa forma o método mensagem() em Classe2 está sendo sobreescrito no de Classe1
@@ -166,62 +166,62 @@
      
      ❓exemplo pratico:
       
-         🔸public class Classe {
-         🔸
-         🔹🔹Atributos:
-         🔸   public String nome,sobrenome,estadoCivil;
-         🔸   public int idade,cpf;
-         🔸
-         🔹🔹método que recebe 2 string:
-         🔸   public Classe(String nome,String sobrenome) {
-         🔸      this.nome = nome;
-         🔸      this.sobrenome = sobrenome;
-         🔸   }
-         🔸
-         🔹🔹método que recebe 2 inteiros:
-         🔸   public Classe(int idade,int cpf) {
-         🔸      this.idade = idade;
-         🔸      this.cpf = cpf;
-         🔸   }
-         🔸
-         🔹🔹método que recebe 1 String
-         🔸   public Classe(String estadoCivil) {
-         🔸      this.estadoCivil = estadoCivil;
-         🔸   }
-         🔸
-         🔸}
+            🔸public class Classe {
+            🔸
+            🔹🔹Atributos:
+            🔸   public String nome,sobrenome,estadoCivil;
+            🔸   public int idade,cpf;
+            🔸
+            🔹🔹método que recebe 2 string:
+            🔸   public Classe(String nome,String sobrenome) {
+            🔸      this.nome = nome;
+            🔸      this.sobrenome = sobrenome;
+            🔸   }
+            🔸
+            🔹🔹método que recebe 2 inteiros:
+            🔸   public Classe(int idade,int cpf) {
+            🔸      this.idade = idade;
+            🔸      this.cpf = cpf;
+            🔸   }
+            🔸
+            🔹🔹método que recebe 1 String
+            🔸   public Classe(String estadoCivil) {
+            🔸      this.estadoCivil = estadoCivil;
+            🔸   }
+            🔸
+            🔸}
       
       💠No codigo acima tem 3 métodos com o mesmo nome, porém, cada um recebe parâmetros diferentes.
         
       ❓Exemplo da utilização:
       
-         🔸public class Principal {
-         🔸
-         🔸   public static void main(String[] args) {
-         🔸
-         🔹🔹🔹Chama o construtor Classe pra criar um novo objeto com os parâmetros: 18 e 06592349222.
-         🔸      Classe teste = new Classe(18,06592349222);
-         🔸         System.out.println(teste);
-         🔸   }
-         🔸}
+            🔸public class Principal {
+            🔸
+            🔸   public static void main(String[] args) {
+            🔸
+            🔹🔹🔹Chama o construtor Classe pra criar um novo objeto com os parâmetros: 18 e 06592349222.
+            🔸      Classe teste = new Classe(18,06592349222);
+            🔸         System.out.println(teste);
+            🔸   }
+            🔸}
 	 
       💠Quando se cria um novo objeto, a Classe prorcura um construtor compatível.
       
         🟢Ele verifica o primeiro metodo disponível:
 	
-	 🔹🔹metodo que recebe 2 string:
-         🔸   public Classe(String nome,String sobrenome) {
-         🔸      this.nome = nome;
-         🔸      this.sobrenome = sobrenome;
-         🔸   }
+	    🔹🔹metodo que recebe 2 string:
+            🔸   public Classe(String nome,String sobrenome) {
+            🔸      this.nome = nome;
+            🔸      this.sobrenome = sobrenome;
+            🔸   }
 	 
 	🟢Como ele recebe 2 strings e o construtor foi chamado com 2 inteiros ele tenta o próximo método:
 	
-	 🔹🔹metodo que recebe 2 inteiros:
-         🔸   public Classe(int idade,int cpf) {
-         🔸      this.idade = idade;
-         🔸      this.cpf = cpf;
-         🔸   }
+	    🔹🔹metodo que recebe 2 inteiros:
+            🔸   public Classe(int idade,int cpf) {
+            🔸      this.idade = idade;
+            🔸      this.cpf = cpf;
+            🔸   }
 	 
 	🟢Esse método em questão aceita 2 inteiros, então é esse que vai ser usado.
 	
@@ -241,83 +241,83 @@
       
  ➡️Pessoa:
 	 
-	🔸public class Pessoa {
-	🔸   protected String nome;
-	🔸   public Pessoa(String nome) {
-	🔸      this.nome = nome;
-	🔸   }
-	🔸   public void setNome(String nome) {
-	🔸	this.nome = nome;
-	🔸   }
-	🔸   public String getNome() {
-	🔸	return nome;
-	🔸   }
-	🔸   public String toString() {
-	🔸	return "\n" + nome;
-	🔸   }
+    🔸public class Pessoa {
+    🔸   protected String nome;
+    🔸   public Pessoa(String nome) {
+    🔸      this.nome = nome;
+    🔸   }
+    🔸   public void setNome(String nome) {
+    🔸	this.nome = nome;
+    🔸   }
+    🔸   public String getNome() {
+    🔸	return nome;
+    🔸   }
+    🔸   public String toString() {
+    🔸	return "\n" + nome;
+    🔸   }
 }
 	
 ➡️Pessoa Física:
 
-        🔸public class PessoaFisica extends Pessoa {
-	🔸   protected String cpf,sobrenome;
-	🔸   protected String tipo = "Pessoa tipo Fisica";
-	🔸   public PessoaFisica(String nome, String sobrenome, String cpf) {
-	🔸      super(nome);
-	🔸	this.cpf = cpf;
-	🔸	this.sobrenome = sobrenome;
-	🔸   }
-	🔸   public String getSobrenome() {
-	🔸	return sobrenome;
-	🔸   }
-	🔸   public void setSobrenome(String sobrenome) {
-	🔸	this.sobrenome = sobrenome;
-	🔸   }
-	🔸   public String getCpf() {
-	🔸	return cpf;
-	🔸   }
-	🔸   public void setCpf(String cpf) {
-	🔸	this.cpf = cpf;
-	🔸   }
-	🔸   public String toString() {
-	🔸	return  "\n"
-	🔸             + tipo 
-	🔸             +"\nNome: " + this.getNome()
-	🔸             +"\nSobrenome: " + this.getSobrenome()
-	🔸             +"\nCpf: " + this.getCpf();
-	🔸   }
-        🔸}
+    🔸public class PessoaFisica extends Pessoa {
+    🔸   protected String cpf,sobrenome;
+    🔸   protected String tipo = "Pessoa tipo Fisica";
+    🔸   public PessoaFisica(String nome, String sobrenome, String cpf) {
+    🔸      super(nome);
+    🔸	this.cpf = cpf;
+    🔸	this.sobrenome = sobrenome;
+    🔸   }
+    🔸   public String getSobrenome() {
+    🔸	return sobrenome;
+    🔸   }
+    🔸   public void setSobrenome(String sobrenome) {
+    🔸	this.sobrenome = sobrenome;
+    🔸   }
+    🔸   public String getCpf() {
+    🔸	return cpf;
+    🔸   }
+    🔸   public void setCpf(String cpf) {
+    🔸	this.cpf = cpf;
+    🔸   }
+    🔸   public String toString() {
+    🔸	return  "\n"
+    🔸             + tipo 
+    🔸             +"\nNome: " + this.getNome()
+    🔸             +"\nSobrenome: " + this.getSobrenome()
+    🔸             +"\nCpf: " + this.getCpf();
+    🔸   }
+    🔸}
 
 ➡️Pessoa Jurídica:
 
-        🔸public class PessoaJuridica extends Pessoa {
-        🔸   private String cnpj,razaoSocial;
-        🔸   private String tipo = "Pessoa tipo juridica";
-        🔸   public PessoaJuridica(String nome, String cnpj, String razaoSocial) {
-        🔸      super(nome);
-        🔸	this.cnpj = cnpj;
-        🔸	this.razaoSocial = razaoSocial;
-        🔸   }
-        🔸   public String getRazaoSocial() {
-        🔸	return razaoSocial;
-        🔸   }
-        🔸   public void setRazaoSocial(String razaoSocial) {
-        🔸	this.razaoSocial = razaoSocial;
-        🔸   }
-        🔸   public String getCnpj() {
-        🔸	return cnpj;
-        🔸   }
-        🔸   public void setCnpj(String cnpj) {
-        🔸	this.cnpj = cnpj;
-        🔸   }
-        🔸   public String toString() {
-        🔸	return  "\n"
-        🔸	       + tipo 
-        🔸	       +"\nNome: " + this.getNome()
-        🔸	       +"\nSobrenome: " + this.getCnpj()
-        🔸	       +"\nCpf: " + this.getRazaoSocial();
-        🔸   }
-        🔸}
+    🔸public class PessoaJuridica extends Pessoa {
+    🔸   private String cnpj,razaoSocial;
+    🔸   private String tipo = "Pessoa tipo juridica";
+    🔸   public PessoaJuridica(String nome, String cnpj, String razaoSocial) {
+    🔸      super(nome);
+    🔸	this.cnpj = cnpj;
+    🔸	this.razaoSocial = razaoSocial;
+    🔸   }
+    🔸   public String getRazaoSocial() {
+    🔸	return razaoSocial;
+    🔸   }
+    🔸   public void setRazaoSocial(String razaoSocial) {
+    🔸	this.razaoSocial = razaoSocial;
+    🔸   }
+    🔸   public String getCnpj() {
+    🔸	return cnpj;
+    🔸   }
+    🔸   public void setCnpj(String cnpj) {
+    🔸	this.cnpj = cnpj;
+    🔸   }
+    🔸   public String toString() {
+    🔸	return  "\n"
+    🔸	       + tipo 
+    🔸	       +"\nNome: " + this.getNome()
+    🔸	       +"\nSobrenome: " + this.getCnpj()
+    🔸	       +"\nCpf: " + this.getRazaoSocial();
+    🔸   }
+    🔸}
        
 </br>
 <h1></h1>
