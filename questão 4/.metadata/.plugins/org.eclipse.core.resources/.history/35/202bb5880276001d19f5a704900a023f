@@ -2,7 +2,7 @@ package banco;
 
 public class PessoaJuridica extends Pessoa {
 
-	private String cnpj, razaoSocial;
+	private String cnpj,razaoSocial;
 	private String tipo = "Pessoa tipo juridica";
 
 	public PessoaJuridica(String nome, String cnpj, String razaoSocial) {
@@ -28,7 +28,10 @@ public class PessoaJuridica extends Pessoa {
 	}
 
 	public String toString() {
-		return "\n" + tipo + "\nNome: " + this.getNome() + "\nSobrenome: " + this.getCnpj() + "\nCpf: "
-				+ this.getRazaoSocial();
+		return "\n"
+		          + tipo 
+		          +"\nNome: " + this.getNome()
+		          +"\nSobrenome: " + this.getCnpj()
+		          +"\nCpf: " + this.getRazaoSocial();
 	}
 }

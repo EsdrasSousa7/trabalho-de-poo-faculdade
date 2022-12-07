@@ -11,12 +11,10 @@ public class ContaPoupanca extends Conta {
 		this(saldo);
 		setCliente(cliente);
 	}
-
 	public ContaPoupanca(PessoaFisica cliente, double saldo) {
 		this(saldo);
 		setCliente(cliente);
 	}
-
 	public ContaPoupanca(PessoaJuridica cliente, double saldo) {
 		this(saldo);
 		setCliente(cliente);

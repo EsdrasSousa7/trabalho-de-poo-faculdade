@@ -8,7 +8,6 @@ public class ContaEspecial extends Conta {
 		this.limite = 500;
 		this.numero += "S";
 	}
-
 	public ContaEspecial(PessoaJuridica cliente) {
 		super(cliente);
 		this.limite = 500;
@@ -19,6 +18,8 @@ public class ContaEspecial extends Conta {
 		this(cliente);
 		this.saldo = saldo;
 	}
+
+	
 
 	public ContaEspecial(PessoaJuridica cliente, double saldo) {
 		this(cliente);
@@ -48,6 +49,7 @@ public class ContaEspecial extends Conta {
 
 	@Override
 	public String toString() {
-		return super.toString() + "\nLimite: " + this.limite + "\nSaldo Total: " + (this.limite + this.saldo);
+		return super.toString() + "\nLimite: " + this.limite +
+				        "\nSaldo Total: " + (this.limite + this.saldo);
 	}
 }

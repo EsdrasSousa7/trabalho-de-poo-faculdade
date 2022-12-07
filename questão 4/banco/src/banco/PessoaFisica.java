@@ -2,9 +2,9 @@ package banco;
 
 public class PessoaFisica extends Pessoa {
 
-	protected String cpf,sobrenome;
+	protected String cpf, sobrenome;
 	protected String tipo = "Pessoa tipo Fisica";
-	
+
 	public PessoaFisica(String nome, String sobrenome, String cpf) {
 		super(nome);
 		this.cpf = cpf;
@@ -28,12 +28,8 @@ public class PessoaFisica extends Pessoa {
 	}
 
 	public String toString() {
-		return "\n"
-	          + tipo 
-	          +"\nNome: " + this.getNome()
-	          +"\nSobrenome: " + this.getSobrenome()
-	          +"\nCpf: " + this.getCpf();
+		return "\n" + tipo + "\nNome: " + this.getNome() + "\nSobrenome: " + this.getSobrenome() + "\nCpf: "
+				+ this.getCpf();
 	}
 
 }
-

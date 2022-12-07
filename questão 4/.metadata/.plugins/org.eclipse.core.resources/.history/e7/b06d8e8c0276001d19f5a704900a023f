@@ -54,7 +54,6 @@ public class Conta {
 	public void setCliente(Pessoa cliente) {
 		this.cliente = cliente;
 	}
-
 	public String toString() {
 		return "\n" + cliente + "\n\nSaldo: " + this.saldo;
 	}
