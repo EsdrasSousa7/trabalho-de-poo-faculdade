@@ -18,7 +18,7 @@
       
       Com uso da pratica de encapsulamento;
       -> O algoritmo em questão se tornará um "método".
-			-> Com isso sempre que for necessário o uso desse algoritmo em vez de repetir codigo, será preciso apenas "chamar o método".
+      -> Com isso sempre que for necessário o uso desse algoritmo em vez de repetir codigo, será preciso apenas "chamar o método".
       
 </br>
 ________________________________________________________________________________________________________________
