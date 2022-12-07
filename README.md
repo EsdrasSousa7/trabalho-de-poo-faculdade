@@ -4,6 +4,7 @@
 </br>
 - <h3>1. Encapsulamento:  💥</h3>
       
+       <\br>
       💠Tem o princípo de dividir tarefas em um codigo de maneira organizada.
       
       💠Evita de ter muitos codigo repetidos.
@@ -13,6 +14,7 @@
       ➡️O encapsulamento consiste em separar as tarefas em "metodos".
       
       ➡️Com isso sempre que for realizar uma tarefa, será necessário apenas chamar o metodo.
+      <\br>
       
 </br>
 <h1></h1>
@@ -20,6 +22,7 @@
 
 - <h3>2. Herança:  💫</h3>
 
+      <\br>
       ➡️A herança permite que Classes compartilhem características e ações com outras.
 
        💠Classe que vai compartilhar: Se chama base;
@@ -31,6 +34,7 @@
 	     💠ações: andar e falar;
 	     
       ➡️A Classe que recebe herança de Pessoa também vai ter nome e sobrenome,andar e falar.
+      <\br>
 
 </br>
 <h1></h1>
