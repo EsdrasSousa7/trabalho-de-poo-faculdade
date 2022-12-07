@@ -2,9 +2,9 @@
 
 <h2>⚡1º- Considerando os conceitos básicos de Orientação a Objetos, explique o significado dos conceitos abaixo:</h2>
 </br>
--<h3>1. Encapsulamento:  💥</h3>
+<h3>1. Encapsulamento:  💥</h3>
       
-       ``
+       ⠀⠀
       💠Tem o princípo de dividir tarefas em um codigo de maneira organizada.
       
       💠Evita de ter muitos codigo repetidos.
@@ -14,13 +14,13 @@
       ➡️O encapsulamento consiste em separar as tarefas em "metodos".
       
       ➡️Com isso sempre que for realizar uma tarefa, será necessário apenas chamar o metodo.
-      <\br>
+      ⠀⠀
       
 </br>
 <h1></h1>
 </br>
 
-- <h3>2. Herança:  💫</h3>
+<h3>2. Herança:  💫</h3>
 
       <\br>
       ➡️A herança permite que Classes compartilhem características e ações com outras.
@@ -40,7 +40,7 @@
 <h1></h1>
 </br>
 
-- <h3>3. Polimorfismo  🐸</h3>
+<h3>3. Polimorfismo  🐸</h3>
      
       🟢Poli = muitas;  
       🟢morfo = formas
@@ -60,7 +60,7 @@
 <h1></h1>
 </br>
 
-- <h3>4. Atributos e Métodos 🍀</h3>
+<h3>4. Atributos e Métodos 🍀</h3>
 
       🟢Atributos são características de objetos como por exemplo:
          💠Carro -> tem roda,volante,banco.
@@ -78,7 +78,7 @@
 <h1></h1>
 </br>
 		      
-- <h3>5. Atributos e Métodos Estáticos 🍁</h3>
+<h3>5. Atributos e Métodos Estáticos 🍁</h3>
 
       ➡️Atributos e Métodos Estáticos são ações e características de uso exclusivo da Classe.
 
