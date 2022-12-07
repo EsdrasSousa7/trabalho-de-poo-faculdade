@@ -237,7 +237,10 @@
 
 <h2>⚡3º-A partir do diagrama abaixo, implemente a estrutura de classes.:</h2>
 </br>
-      <img align="center" src="https://github.com/isonhar/trabalho-de-poo-faculdade/blob/main/extra/img%203%20questao.png">
+<p align="center">
+<img src="https://github.com/isonhar/trabalho-de-poo-faculdade/blob/main/extra/img%203%20questao.png">
+</p>
+      
 
 </br>
 <h1 align="center">〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
