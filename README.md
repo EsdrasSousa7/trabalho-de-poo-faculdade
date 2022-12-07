@@ -1,7 +1,7 @@
 <h1 align="center">Trabalho de Programação Orientada a  Objetos</h1>
 
 <h2>⚡1º- Considerando os conceitos básicos de Orientação a Objetos, explique o significado dos conceitos abaixo:</h2>
-
+</br>
 - <h3>1. Encapsulamento:  💥</h3>
       
       💠Tem o princípo de dividir tarefas em um codigo de maneira organizada.
@@ -219,7 +219,7 @@
       
       
 </br>
-<h1 align="center">〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
+<h1 align="center">〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
 </br>
 
 
