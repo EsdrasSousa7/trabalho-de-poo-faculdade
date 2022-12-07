@@ -29,7 +29,8 @@
        💠Classe que vai receber: Se chama derivada;
       
       ❓exemplo:
-         💠 Uma Classe com nome Pessoa que possui:
+      
+             💠 Uma Classe com nome Pessoa que possui:
 	     💠características: nome e sobrenome;
 	     💠ações: andar e falar;
 	     
@@ -49,6 +50,7 @@
       ➡️Poliformifismo é quando algo pode fazer a mesma coisa de formas diferentes.
       
       ❓exemplo:
+      
            💠Fazer um trabalho de faculdade tem varias formas de fazer essa ação:
 	   💠Estudando pra saber resolver.
 	   💠Pedindo ajuda.
@@ -66,12 +68,14 @@
 
       ⠀⠀
       🟢Atributos são características de objetos como por exemplo:
+      
          💠Carro -> tem roda,volante,banco.
          💠Porta -> tem cor,material,espessura.
 	  
 	     ❓ roda, volante, banco, cor, material eespessura são atributos.
 	 
       🟢Métodos são ações que o objeto pode fazer:
+      
          💠Carro -> acelerar,frear,ligar,desligar.
          💠Porta -> abrir,fechar.
     
@@ -148,6 +152,7 @@
       💠Agora dessa forma o método mensagem() em Classe2 está sendo sobreescrito no de Classe1
       
       🟢Então se tentar imprimir mensagem() em ambas:
+      
         🔺Classe1 mostrará "mensagem"
 	🔺Classe2 mostrará "outra mensagem"
 	⠀⠀
