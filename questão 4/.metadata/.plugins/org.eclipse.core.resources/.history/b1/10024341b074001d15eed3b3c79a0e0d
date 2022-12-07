@@ -1,0 +1,25 @@
+package banco;
+
+public class Principal {
+	public static void main(String[] args) {
+
+		PessoaFisica cliente1 = new PessoaFisica("Jeova", "Sobrenome", "024.471.653-66");
+		Conta c = new Conta(cliente1);
+
+		c.creditar(2000.0);
+		c.debitar(100);
+
+		PessoaJuridica cliente2 = new PessoaJuridica("Samuel", "70.560.022/0001-91", "dar aula");
+		ContaEspecial c2 = new ContaEspecial(cliente2, 200);
+		c2.debitar(500);
+
+		ContaPoupanca c3 = new ContaPoupanca(new Pessoa("Agamenon"), 10000);
+		c3.rendeJuros();
+
+		System.out.println(c);
+
+		System.out.println(c2);
+
+		System.out.println(c3);
+	}
+}
