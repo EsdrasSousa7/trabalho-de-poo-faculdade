@@ -196,13 +196,12 @@
       ❓Exemplo da utilização:
       
          🔸public class Principal {
-	 🔸
+         🔸
          🔸   public static void main(String[] args) {
-	 🔸
-	 🔹🔹🔹Chama o construtor Classe pra criar um novo objeto com os parâmetros: 18 e 06592349222.
+         🔸
+         🔹🔹🔹Chama o construtor Classe pra criar um novo objeto com os parâmetros: 18 e 06592349222.
          🔸      Classe teste = new Classe(18,06592349222);
          🔸         System.out.println(teste);
-	 🔸
          🔸   }
          🔸}
 	 
