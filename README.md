@@ -49,7 +49,7 @@
       ➡️Poliformifismo é quando algo pode fazer a mesma coisa de formas diferentes.
       
       ❓exemplo:
-         💠Fazer um trabalho de faculdade tem varias formas de fazer essa ação:
+           💠Fazer um trabalho de faculdade tem varias formas de fazer essa ação:
 	   💠Estudando pra saber resolver.
 	   💠Pedindo ajuda.
 	   💠Copiando de outra pessoa.
@@ -114,7 +114,7 @@
             🔸       System.out.println("mensagem");
             🔸  }
             🔸}
-      
+       
         💠Classe2 derivada de Classe1:
       
             🔸 public class Classe2 extends Classe1{
@@ -134,7 +134,7 @@
             🔸  }
             🔸}
 	
-	💠Classe2 derivada de Classe1:
+        💠Classe2 derivada de Classe1:
       
             🔸public class Classe2 extends Classe1{
             🔸
