@@ -4,10 +4,10 @@
 
 - <h3> 1. Encapsulamento:  💥</h3>
 
-     Em um programa que adiciona nomes em uma lista sem uso de encapsulamento, toda vez q quiser digitar o nome e armazenar
-     terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o mesmo codigo será reescrito 100 vezes.
-     
-     É a forma de dividir tarefas no codigo de uma forma organizada para evitar repetição de codigos.
+      É a forma de dividir tarefas no codigo de uma forma organizada para evitar repetição de codigos.
+      
+      Em um programa que adiciona nomes em uma lista sem uso de encapsulamento, toda vez q quiser digitar o nome e armazenar
+      terá que reescrever o mesmo codigo, se for necessario adicionar 100 nomes, o mesmo codigo será reescrito 100 vezes.
 </br>
 ________________________________________________________________________________________________________________
 </br>
