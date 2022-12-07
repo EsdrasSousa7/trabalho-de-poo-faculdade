@@ -4,7 +4,7 @@
 </br>
 - <h3>1. Encapsulamento:  💥</h3>
       
-       <\br>
+       ``
       💠Tem o princípo de dividir tarefas em um codigo de maneira organizada.
       
       💠Evita de ter muitos codigo repetidos.
