@@ -85,7 +85,7 @@ ________________________________________________________________________________
       ➡️Sobrescrita é quando se tem métodos com a mesma assinatura em classes diferentes.
       ➡️Quando não se quer herdar o método do jeito da outra classe, se "sobrescreve" o mesmo.
       
-      🟢Mesma assinatura: quando tem a mesma quantidade de parametros e sãp do mesmo tipo.
+        🟢Mesma assinatura: quando tem a mesma quantidade de parametros e sãp do mesmo tipo.
       
       ❓exemplo pratico:
       
@@ -118,7 +118,7 @@ ________________________________________________________________________________
 	
 	💠Classe2 derivada de Classe1:
       
-        🔸 public class Classe2 extends Classe1{
+        🔸public class Classe2 extends Classe1{
 	🔸
 	🔸   @Override
 	🔸   public void mensagem() {
@@ -133,5 +133,87 @@ ________________________________________________________________________________
       🟢Então se tentar imprimir mensagem() em ambas:
         🔺Classe1 mostrará "mensagem"
 	🔺Classe2 mostrará "outra mensagem"
-           
+</br>
+________________________________________________________________________________________________________________
+</br>
+<h4 align="center">❌Sobrecarga❌</h4>
 
+
+     ➡️Sobrecarga é quando se tem métodos com assinaturas diferentes em classes iguais.
+     
+       🟢Mesma assinatura: quando tem a mesma quantidade de parametros e sãp do mesmo tipo.
+     
+     ❓exemplo pratico:
+      
+         🔸public class Classe {
+         🔸
+         🔹🔹Atributos:
+         🔸   public String nome,sobrenome,estadoCivil;
+         🔸   public int idade,cpf;
+         🔸
+         🔹🔹método que recebe 2 string:
+         🔸   public Classe(String nome,String sobrenome) {
+         🔸      this.nome = nome;
+         🔸      this.sobrenome = sobrenome;
+         🔸   }
+         🔸
+         🔹🔹método que recebe 2 inteiros:
+         🔸   public Classe(int idade,int cpf) {
+         🔸      this.idade = idade;
+         🔸      this.cpf = cpf;
+         🔸   }
+         🔸
+         🔹🔹método que recebe 1 String
+         🔸   public Classe(String estadoCivil) {
+         🔸      this.estadoCivil = estadoCivil;
+         🔸   }
+         🔸
+         🔸}
+      
+      💠No codigo acima tem 3 métodos com o mesmo nome, porém, cada um recebe parâmetros diferentes.
+        
+      ❓Exemplo da utilização:
+      
+         🔸public class Principal {
+	 🔸
+         🔸   public static void main(String[] args) {
+	 🔸
+	 🔹🔹🔹Chama o construtor Classe pra criar um novo objeto com os parâmetros: 18 e 06592349222.
+         🔸      Classe teste = new Classe(18,06592349222);
+         🔸         System.out.println(teste);
+	 🔸
+         🔸   }
+         🔸}
+	 
+      💠Quando se cria um novo objeto, a Classe prorcura um construtor compatível.
+      
+        🟢Ele verifica o primeiro metodo disponível:
+	
+	 🔹🔹metodo que recebe 2 string:
+         🔸   public Classe(String nome,String sobrenome) {
+         🔸      this.nome = nome;
+         🔸      this.sobrenome = sobrenome;
+         🔸   }
+	 
+	🟢Como ele recebe 2 strings e o construtor foi chamado com 2 inteiros ele tenta o próximo método:
+	
+	 🔹🔹metodo que recebe 2 inteiros:
+         🔸   public Classe(int idade,int cpf) {
+         🔸      this.idade = idade;
+         🔸      this.cpf = cpf;
+         🔸   }
+	 
+	🟢Esse método em questão aceita 2 inteiros, então é esse que vai ser usado.
+	
+      ➡️Quando se chama um construtor ele verifica os metodos disponível em sequência.
+      
+      ➡️Quando um método não é compativel ele fica "sobrecarregado",então verifica o próximo.
+      
+      
+      
+</br>
+________________________________________________________________________________________________________________
+</br> 
+
+〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️
+ 
