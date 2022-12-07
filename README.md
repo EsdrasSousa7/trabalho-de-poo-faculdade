@@ -237,7 +237,7 @@
 
 <h2>⚡3º-A partir do diagrama abaixo, implemente a estrutura de classes.:</h2>
 </br>
-      ![image](https://user-images.githubusercontent.com/119830153/206111929-27650528-42b1-4160-b599-a055c1fb0457.png)
+      
 
 </br>
 <h1 align="center">〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
