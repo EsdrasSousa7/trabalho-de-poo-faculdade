@@ -1,0 +1,9 @@
+package banco;
+
+public class Pessoa {
+
+	protected String nome;
+	
+}
+
+
