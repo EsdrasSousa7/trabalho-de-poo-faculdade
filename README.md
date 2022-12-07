@@ -5,9 +5,13 @@
 <h3>Encapsulamento:  💥</h3>
       
        ⠀⠀
-      💠Tem o princípo de dividir tarefas em um codigo de maneira organizada.
+      💠Tem o princípo de dividir tarefas em um codigo de maneira organizada e segura.
       
-      💠Evita de ter muitos codigo repetidos.
+      💠Evita de ter codigos repetidos.por o codigo ficar "abstraido".
+      
+      💠O codigo ficar "abstraido", por meio de uma interface.
+       
+      💠Evitando ter contado direto com o algoritmo em questão,assim dando a segurança de n interferir na sua função.
       
       💠Por ter tarefas divididas, a manutenção do codigo é mais eficiente.
       
