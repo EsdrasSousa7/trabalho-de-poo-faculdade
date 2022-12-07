@@ -142,8 +142,7 @@
 	🔸   public void mensagem() {
 	🔸	System.out.println("outra mensagem");
 	🔸   }
-	🔸
-        🔸}
+	🔸}
       
 
       💠Agora dessa forma o método mensagem() em Classe2 está sendo sobreescrito no de Classe1
