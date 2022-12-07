@@ -2,7 +2,7 @@
 
 <h2>⚡1º- Considerando os conceitos básicos de Orientação a Objetos, explique o significado dos conceitos abaixo:</h2>
 </br>
-<h3>1. Encapsulamento:  💥</h3>
+<h3>Encapsulamento:  💥</h3>
       
        ⠀⠀
       💠Tem o princípo de dividir tarefas em um codigo de maneira organizada.
@@ -20,7 +20,7 @@
 <h1></h1>
 </br>
 
-<h3>2. Herança:  💫</h3>
+<h3>Herança:  💫</h3>
 
       ⠀⠀
       ➡️A herança permite que Classes compartilhem características e ações com outras.
@@ -40,7 +40,7 @@
 <h1></h1>
 </br>
 
-<h3>3. Polimorfismo  🐸</h3>
+<h3>Polimorfismo  🐸</h3>
      
       ⠀⠀
       🟢Poli = muitas;  
@@ -62,7 +62,7 @@
 <h1></h1>
 </br>
 
-<h3>4. Atributos e Métodos 🍀</h3>
+<h3>Atributos e Métodos 🍀</h3>
 
       ⠀⠀
       🟢Atributos são características de objetos como por exemplo:
@@ -82,7 +82,7 @@
 <h1></h1>
 </br>
 		      
-<h3>5. Atributos e Métodos Estáticos 🍁</h3>
+<h3>Atributos e Métodos Estáticos 🍁</h3>
 
  
       ⠀⠀
@@ -95,7 +95,7 @@
 
 
 <h2>🔅2º- Diferencie os mecanismos de sobrescrita e sobrecarga, demonstrando cenário de uso de cada um desses.</h2>
-
+</br>
 <h4 align="center">⭕Sobrescrita⭕</h4>
 
 
@@ -231,8 +231,14 @@
       
       ➡️Quando um método não é compativel ele fica "sobrecarregado",então verifica o próximo.
       ⠀⠀
-      
-      
+</br>
+<h1></h1>
+</br>   
+
+<h2>⚡3º-A partir do diagrama abaixo, implemente a estrutura de classes.:</h2>
+</br>
+      ![image](https://user-images.githubusercontent.com/119830153/206111929-27650528-42b1-4160-b599-a055c1fb0457.png)
+
 </br>
 <h1 align="center">〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️</h1>
 </br>
