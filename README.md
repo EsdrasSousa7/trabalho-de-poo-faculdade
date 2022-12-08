@@ -300,8 +300,8 @@
 ➡️Pessoa Jurídica:
 
     🔸public class PessoaJuridica extends Pessoa {
-    🔸   private String cnpj,razaoSocial;
-    🔸   private String tipo = "Pessoa tipo juridica";
+    🔸   protected String cnpj,razaoSocial;
+    🔸   protected String tipo = "Pessoa tipo juridica";
     🔸   public PessoaJuridica(String nome, String cnpj, String razaoSocial) {
     🔸      super(nome);
     🔸	this.cnpj = cnpj;
